@@ -1,0 +1,9 @@
+[submodule "deadline-cloud"]
+	path = deadline-cloud
+	url = git@github.com:Ahuge/deadline-cloud
+[submodule "deadline-cloud-for-arnold-standalone"]
+	path = deadline-cloud-for-arnold-standalone
+	url = git@github.com:Ahuge/deadline-cloud-for-arnold-standalone
+[submodule "deadline-cloud-for-maya"]
+	path = deadline-cloud-for-maya
+	url = git@github.com:Ahuge/deadline-cloud-for-maya
