@@ -29,7 +29,7 @@ return UICallbackResponse(job_specific_ui=ArnoldSubmitterPluginWidget(...))
 - Modifies job template parameters for Arnold
 
 ## Integration Diagram
-```
+```mermaid
 sequenceDiagram
     participant Maya as Maya Submitter
     participant PM as PluginManager
@@ -46,7 +46,6 @@ sequenceDiagram
 
     Maya->>User: Shows Arnold controls injected into Maya Submitter
 
-    When Submitting:
         Maya->>PM: Prepare job bundle
         PM->>AP: Call on_create_job_bundle_callback()
         AP->>Maya: Convert scene to .ASS

@@ -42,7 +42,6 @@ sequenceDiagram
 
     D->>User: Show enhanced UI
 
-    When Submitting:
         D->>P: Call bundle hook
         P->>H: on_create_job_bundle()
         H-->>D: Modify bundle parameters
