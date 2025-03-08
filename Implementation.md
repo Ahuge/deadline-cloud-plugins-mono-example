@@ -46,7 +46,6 @@ sequenceDiagram
         P->>H: on_create_job_bundle()
         H-->>D: Modify bundle parameters
 
-    After Submission:
         D->>P: Call post-submit hook
         P->>H: on_post_submit()
 ```
